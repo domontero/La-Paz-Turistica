@@ -1,0 +1,160 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-image: url('');
+  background-size: cover;
+  padding: 200px 0;
+}
+
+.header-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.229);
+}
+.header-title {
+  color:white; /* Cambiar el color del texto a blanco */
+  text-shadow: 2px 2px 4px rgba(252, 247, 247, 0.984); /* Aplicar un sombreado al texto */
+  font-size: 38px; /* Aumentar el tamaño de fuente */
+  -webkit-text-stroke: 1px black; /* Añadir un borde negro al texto */
+}
+ 
+ 
+ 
+
+.insurance-list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.insurance {
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(246, 245, 245, 0.1);
+  border-radius: 8px;
+  margin: 20px;
+  padding: 20px;
+  width: 320px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.insurance:hover {
+  transform: scale(1.05);
+}
+
+.insurance img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.insurance h2 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.insurance p {
+  font-size: 16px;
+  color: #777;
+}
+
+/* Botón de cotización */
+.quote-button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+.quote-button:hover {
+  background-color: #555;
+}
+/* Estilos previos mantienen su apariencia 
+
+DE AQUI PARA ABAJO SON LAS EMERGENCIAS SUS ESTILOS 
+
+*/
+/* Estilos previos mantienen su apariencia */
+
+.emergency-contact {
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 20px auto;
+  padding: 20px;
+  width: 700px; /* Ancho deseado */
+  text-align: center;
+}
+
+.emergency-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Crea 2 columnas */
+  grid-gap: 10px; /* Espacio entre elementos */
+}
+
+.emergency-list li {
+  margin-bottom: 10px;
+}
+
+
+.insurance-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.insurance_emergency {
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(254, 253, 253, 0.1);
+  border-radius: 8px;
+  margin: 20px auto;
+  padding: 20px;
+  width: 1300px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.insurance:hover {
+  transform: scale(1.05);
+}
+
+.insurance img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.insurance h2 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.insurance p {
+  font-size: 16px;
+  color: #777;
+}
+
+ 
